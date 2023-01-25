@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dulce Tentación</title>
+  <link rel="stylesheet" href="../styles/estilos.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__img-container">
+      <img class="header__img" src="../img/log01.svg" alt="Logo" />
+    </div>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li"><a class="link" href="../index.html">Inicio</a></li>
+        <li class="nav__li"><a class="link" href="./productos.html">Productos</a></li>
+        <li class="nav__li"><a class="link" href="./blog.html">Blog</a></li>
+        <li class="nav__li"><a class="link" href="./nosotros.html">Nosotros</a></li>
+        <li class="nav__li"><a class="link" href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contacto">
+    <div class="contacto__info-container">
+      <h3 class="contacto__title">Contáctame directamente</h3>
+      <p class="contacto__name">Janet Santi</p>
+      <p class="contacto__tel">Teléfono: +56 2 12345678</p>
+      <p class="contacto__mail">Mail: dulcetentacion@gmail.com</p>
+    </div>
+
+    <div class="contacto__form-container">
+      <form class="contacto__form">
+        <label class="contacto__label" for="nombre">Tu nombre</label>
+        <input class="contacto__input" type="text" id="nombre" name="nombre" required>
+
+        <label class="contacto__label" for="telefono">Teléfono</label>
+        <input class="contacto__input" type="number" id="telefono" name="telefono" required>
+
+        <label class="contacto__label" for="mail">Tu correo electrónico</label>
+        <input class="contacto__input" type="email" id="mail" name="mail" required>
+
+        <label class="contacto__label" for="asunto">Asunto</label>
+        <input class="contacto__input" type="text" id="asunto" name="asunto">
+
+        <label class="contacto__label" for="mensaje">Tu mensaje</label>
+        <textarea name="message" id="mensaje" cols="50" rows="10"></textarea>
+
+        <input class="contacto__button" type="submit">
+
+
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h4 class="footer__copyright">
+      Copyright © 2023 - Página creada por Janet Santi - Todos los derechos
+      reservados
+    </h4>
+  </footer>
+</body>
+
+</html>

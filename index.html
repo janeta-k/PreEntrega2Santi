@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dulce Tentación</title>
+
+  <link rel="stylesheet" href="./styles/estilos.css" />
+</head>
+
+<body>
+
+  <!-- MENÚ DE NAVEGACIÓN -->
+
+  <header class="header">
+    <div class="header__img-container">
+      <img class="header__img" src="./img/log01.svg" alt="Logo" />
+    </div>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li"><a class="link" href="./index.html">Inicio</a></li>
+        <li class="nav__li"><a class="link" href="./pages/productos.html">Productos</a></li>
+        <li class="nav__li"><a class="link" href="./pages/blog.html">Blog</a></li>
+        <li class="nav__li"><a class="link" href="./pages/nosotros.html">Nosotros</a></li>
+        <li class="nav__li"><a class="link" href="./pages/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- BANNER -->
+
+  <main class="banner">
+    <div class="banner__img-container">
+      <img class="banner__img" src="./img/banner.png" alt="banner" />
+    </div>
+    <div class="banner__text-container">
+      <div class="banner__text">
+        <h1 class="banner__title">¡Hola 2023!</h1>
+        <p class="banner__subtitle">
+          Nuevo año, y nuevas aventuras. Comencemos este año con la magia del
+          chocolate!
+        </p>
+      </div>
+      <div class="banner__button-container">
+        <button class="banner__button"><a class="link" href="./pages/productos.html">Comprar</a></button>
+      </div>
+    </div>
+  </main>
+
+  <!-- SECCIÓN PRODUCTOS DESTACADOS -->
+
+  <section class="destacados">
+    <div class="destacados__title-container">
+      <h2 class="destacados__title">Nuestros destacados del mes</h2>
+    </div>
+
+    <div class="destacados__productos-container">
+      <div class="product">
+        <img class="product__img" src="./img/bombones-caja.jpg" alt="bombones-caja" />
+        <p class="product__description">Bombones caja 420g</p>
+        <p class="product__price">$22.600</p>
+        <div class="product__button-container">
+          <button class="product__button"><a class="link" href="./pages/productos.html">agregar a la bolsa</a></button>
+        </div>
+      </div>
+      <div class="product">
+        <img class="product__img" src="./img/bombones-lata.jpg" alt="bombones-lata" />
+        <p class="product__description">Bombones lata 670g</p>
+        <p class="product__price">$33.900</p>
+        <div class="product__button-container">
+          <button class="product__button"><a class="link" href="./pages/productos.html">agregar a la bolsa</a></button>
+        </div>
+      </div>
+      <div class="product">
+        <img class="product__img" src="./img/calugas-lata.jpg" alt="calugas-lata" />
+        <p class="product__description">Calugas lata 250g</p>
+        <p class="product__price">$8.500</p>
+        <div class="product__button-container">
+          <button class="product__button"><a class="link" href="./pages/productos.html">agregar a la bolsa</a></button>
+        </div>
+      </div>
+      <div class="product">
+        <img class="product__img" src="./img/rouge-mix.jpg" alt="rouge-mix" />
+        <p class="product__description">Rouge Mix 540g</p>
+        <p class="product__price">$29.800</p>
+        <div class="product__button-container">
+          <button class="product__button"><a class="link" href="./pages/productos.html">agregar a la bolsa</a></button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="destacados__button-container">
+      <button class="button__ver-mas"><a class="link-black" href="./pages/productos.html"> Ver más
+          productos</a></button>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE EL BLOG -->
+
+  <section class="blog">
+    <div class="blog__title-container">
+      <h2 class="blog__title">Blog</h2>
+      <p class="blog__subtitle">
+        Te invitamos a ser parte de la experiencia Dulce Tentación
+      </p>
+    </div>
+
+    <div class="blog__posts-container">
+
+      <div class="post">
+        <img class="post__img" src="./img/torta-chocolate.PNG" alt="Torta de chocolate" />
+        <div class="post__description-container">
+          <p class="post__category">Recetas</p>
+          <p class="post__title">Torta de chocolate y café</p>
+        </div>
+      </div>
+
+      <div class="post">
+        <img class="post__img" src="./img/pie.PNG" alt="Pie de limón" />
+        <div class="post__description-container">
+          <p class="post__category">Recetas</p>
+          <p class="post__title">Pie de limón</p>
+        </div>
+
+      </div>
+
+      <div class="post">
+        <img class="post__img" src="./img/cheesecake.PNG" alt="Cheesecake" />
+        <div class="post__description-container">
+          <p class="post__category">Recetas</p>
+          <p class="post__title">Cheescake</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="blog__button-container">
+      <button class="button__ver-blog"><a class="link-black" href="./pages/blog.html">Ver Blog</a></button>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE EMPRESAS -->
+
+  <section class="empresas">
+    <div class="empresas__title-container">
+      <h2 class="empresas__title">¿Eres una empresa?</h2>
+    </div>
+    <div class="empresas__info-flex">
+      <div class="empresas__description-container">
+        <div class="empresas__description-p">
+          <p class="description">
+            Somos una empresa líder en chocolates promocionales donde podemos
+            satisfacer las más amplias necesidades de nuestros clientes,
+            cerrando el círculo publicitario y de promoción.
+          </p>
+          <p class="description">
+            Si lo requieres, estaremos abiertos a conocer tus necesidades y
+            proponer ideas de acuerdo a cada objetivo comercial, si ya tienes
+            algo en mente te ayudaremos a materializarlo para darle vida a un
+            exitoso resultado.
+          </p>
+        </div>
+
+        <ul class="empresas__description-ul">
+          <li class="empresas__list">Genéricos con saludo</li>
+          <li class="empresas__list">Productos a elección</li>
+          <li class="empresas__list">Empaque personalizado</li>
+          <li class="empresas__list">Y mucho más!</li>
+        </ul>
+
+        <div class="empresas__button-container">
+          <button class="empresas__button"><a class="link-black" href="./pages/contacto.html">Quiero
+              Cotizar</a></button>
+        </div>
+      </div>
+
+      <div class="empresas__img-container">
+        <img class="empresas__img" src="./img/regalos-personalizados.PNG" alt="regalos personalizados" />
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <h4 class="footer__copyright">
+      Copyright © 2023 - Página creada por Janet Santi - Todos los derechos
+      reservados
+    </h4>
+  </footer>
+</body>
+
+</html>
