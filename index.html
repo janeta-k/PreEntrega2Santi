@@ -15,7 +15,40 @@
   <!-- MENÚ DE NAVEGACIÓN -->
 
   <header class="header">
-    <div class="header__img-container">
+    <nav class="navbar bg-black navbar-expand-lg" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/log01.svg" alt="Bootstrap" width="200px" height="auto">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+          </div>
+         
+      </div>
+    </nav>
+    
+  </header>
+
+  <!-- <div class="header__img-container">
       <img class="header__img" src="./img/log01.svg" alt="Logo" />
     </div>
     <nav class="nav">
@@ -26,8 +59,7 @@
         <li class="nav__li"><a class="link" href="./pages/nosotros.html">Nosotros</a></li>
         <li class="nav__li"><a class="link" href="./pages/contacto.html">Contacto</a></li>
       </ul>
-    </nav>
-  </header>
+    </nav> -->
 
   <!-- BANNER -->
 
@@ -46,7 +78,7 @@
           <img src="./img/chocolates-banner.png" alt="caja de bombones">
         </div>
       </div>
-    </div>    
+    </div>
   </main>
 
   <!-- <footer id="contacto" class="piedepagina">
@@ -58,7 +90,7 @@
           <div class="ubi">
             <h4>Encuéntranos en:</h4>
             <a href=""><i class="fa-solid fa-location-dot"></i>
-            Mall Marina Arauco (1er Nivel) | Av. Libertad 1348 Modulo A-73 , Viña del Mar, Valparaíso, Chile</a> 
+            Mall Marina Arauco (1er Nivel) | Av. Libertad 1348 Modulo A-73 , Viña del Mar, Valparaíso, Chile</a>
           </div>
         </div>
 
@@ -71,7 +103,7 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-4"> 
+        <div class="col-xs-12 col-sm-4">
           <div class="contacto">
             <h4>Contáctanos</h4>
             <a href=""><i class="fa-brands fa-whatsapp"></i>     +56 9 1234567</a>
