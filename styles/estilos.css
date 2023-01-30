@@ -27,7 +27,12 @@
 }
 
 /*MENÚ DE NAVEGACIÓN*/
-.header {
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+/* .header {
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -54,7 +59,7 @@
 .link {
     color: white;
     font-family: sans-serif;
-}
+} */
 
 /******Inicio******/
 /*BANNER*/
@@ -498,4 +503,9 @@
     border: solid 1px #ff5d2a;
     cursor: pointer;
     color: white;
+}
+
+
+
+@media (max-width: 600px){
 }

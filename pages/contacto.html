@@ -12,18 +12,37 @@
 
 <body>
   <header class="header">
-    <div class="header__img-container">
-      <img class="header__img" src="../img/log01.svg" alt="Logo" />
-    </div>
-    <nav class="nav">
-      <ul class="nav__ul">
-        <li class="nav__li"><a class="link" href="../index.html">Inicio</a></li>
-        <li class="nav__li"><a class="link" href="./productos.html">Productos</a></li>
-        <li class="nav__li"><a class="link" href="./blog.html">Blog</a></li>
-        <li class="nav__li"><a class="link" href="./nosotros.html">Nosotros</a></li>
-        <li class="nav__li"><a class="link" href="./contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="navbar bg-black navbar-expand-lg" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../img/log01.svg" alt="Bootstrap" width="200px" height="auto">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+          </div>
+         
+      </div>
     </nav>
+    
   </header>
 
   <section class="contacto">
