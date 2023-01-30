@@ -18,6 +18,10 @@
     text-decoration: none;
 }
 
+.show-mobile{
+    display: none;
+}
+
 :root {
     --montserrat: 'Montserrat', sans-serif;
     --open-sans: 'Open Sans', sans-serif;
@@ -104,9 +108,9 @@
 
 /*SECCIÓN PRODUCTOS DESTACADOS*/
 
-.destacados {
+/* .destacados {
     padding: 60px 40px;
-}
+} */
 
 .destacados__title {
     color: #503629;
@@ -116,7 +120,7 @@
     font-weight: 600;
 }
 
-.destacados__productos-container {
+/* .destacados__productos-container {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
@@ -152,6 +156,23 @@
     color: #807451;
 }
 
+
+
+.destacados__button-container {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+.link-black {
+    color: black;
+}
+
+.link-black:hover {
+    color: white;
+} */
+
 .product__button {
     font-weight: 600;
     text-transform: inherit;
@@ -161,22 +182,13 @@
     letter-spacing: 1px;
     font-size: 1em;
     margin: 0;
-    padding: 8px 15px;
     border-radius: 4px;
-    margin-top: 15px;
     width: 100%;
     font-family: sans-serif;
-    cursor: pointer;
-}
-
-.destacados__button-container {
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 20px;
 }
 
 .button__ver-mas {
-    cursor: pointer;
+    
     letter-spacing: 3px;
     font-size: .933rem;
     text-transform: uppercase;
@@ -192,18 +204,19 @@
     color: white;
 }
 
-.link-black {
-    color: black;
-}
-
-.link-black:hover {
-    color: white;
+.btn{
+    --bs-btn-border-radius: 0;
 }
 
 /*SECCIÓN DE EL BLOG*/
 
 .blog {
     padding: 60px 40px;
+}
+
+.blog__card-container{
+    --bs-card-border-radius: 0;
+
 }
 
 .blog__title-container {
@@ -226,18 +239,20 @@
     font-weight: 200;
 }
 
-.blog__posts-container {
+.post {
+    background-color: white;
+    box-shadow: 0 3px 8px #ddd;
+    cursor: pointer;
+    --bs-card-border-color: transparent;
+    border: 0;
+}
+
+/* .blog__posts-container {
     display: flex;
     justify-content: space-around;
 }
 
-.post {
-    width: 437px;
-    height: 345px;
-    background-color: white;
-    box-shadow: 0 3px 8px #ddd;
-    cursor: pointer;
-}
+
 
 .post__img {
     width: 100%;
@@ -248,16 +263,18 @@
 .post__description-container {
     height: 50px;
     padding: 1.25rem;
-}
+} */
 
 .post__category {
     font-family: var(--barlow);
+    margin: 0%;
 }
 
 .post__title {
     font-family: var(--barlow);
     font-weight: bold;
     letter-spacing: 2px;
+    margin: 0%;
 }
 
 .blog__button-container {
@@ -299,8 +316,7 @@
 }
 
 .empresas__description-container {
-    width: 50%;
-    padding: 30px 30px 35px 85px;
+   
     font-family: sans-serif;
 }
 
@@ -313,7 +329,6 @@
 }
 
 .empresas__description-ul {
-    margin: 40px 0px 45px 16px;
     line-height: 1.5rem;
 }
 
@@ -321,20 +336,13 @@
     border-radius: 20px;
     padding: 10px 20px;
     letter-spacing: 1px;
-    background: transparent;
-}
-
-.empresas__button:hover {
     background-color: #ff5d2a;
     border: solid 1px #ff5d2a;
-    cursor: pointer;
     color: white;
 }
 
 .empresas__img-container {
     text-align: center;
-    padding: 30px;
-    width: 50%;
 }
 
 .empresas__img {
@@ -351,6 +359,7 @@
     color: white;
     text-align: center;
     font-family: sans-serif;
+    font-size: 15px;
 }
 
 
@@ -507,6 +516,12 @@
 
 
 @media (max-width: 600px){
+    .hidden-mobile{
+        display: none;
+    }
+    .show-mobile{
+        display: block;
+    }
     /*Banner*/
     .banner__padding{
         padding: 1rem;
@@ -523,9 +538,6 @@
         font-size: 20px;
         margin-bottom: 1rem;
     }
-    .btn{
-        --bs-btn-border-radius: 0;
-    }
     .banner__button {
     background-color: #d9ae5c;
     border: solid 1px #d9ae5c;
@@ -538,4 +550,30 @@
     }
 
     /*destacados del mes*/
+    .product__card-margin{
+        margin: 20px 30px;
+    }
+
+    /*blog*/
+    .blog__subtitle {
+        font-size: 15px;
+    }
+    .post{
+        margin-top: 15px;
+    }
+    /*empresas*/
+    .description{
+        text-align: justify;
+    }
+    .empresas__description-ul{
+        display: none;
+    }
+    .empresas__description-container {
+        margin: 0px 15px;
+    }
+
+    /*footer*/
+    .footer__copyright{
+        font-size: 17px;
+    }
 }
