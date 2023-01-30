@@ -58,18 +58,22 @@
 
 /******Inicio******/
 /*BANNER*/
-.banner__img {
+
+.banner{
+    background-color: #f4eeee;
+}
+/* .banner__img {
     width: 100%;
     height: auto;
     position: relative;
-}
+} */
 
-.banner__text-container {
+/* .banner__text-container {
     position: absolute;
     top: 225px;
     right: 800px;
     width: 500px;
-}
+} */
 
 .banner__title {
     font-size: 4rem;
@@ -83,7 +87,7 @@
     font-family: var(--montserrat);
 }
 
-.banner__button {
+/* .banner__button {
     align-self: flex-start;
     border-radius: 20px;
     padding: 10px 20px;
@@ -92,7 +96,7 @@
     border: solid 1px #d9ae5c;
     cursor: pointer;
     color: white;
-}
+} */
 
 /*SECCIÓN PRODUCTOS DESTACADOS*/
 
@@ -347,9 +351,9 @@
 
 
 /******Productos******/
-.container {
+/* .container {
     margin: 5% 7%;
-}
+} */
 
 .page__title {
     font-family: var(--courgette);
