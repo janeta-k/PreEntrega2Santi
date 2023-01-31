@@ -22,6 +22,10 @@
     display: none;
 }
 
+p{
+    margin-bottom: 0;
+}
+
 :root {
     --montserrat: 'Montserrat', sans-serif;
     --open-sans: 'Open Sans', sans-serif;
@@ -247,6 +251,11 @@
     border: 0;
 }
 
+.post__img {
+    height: 255px;
+    object-fit: cover;
+}
+
 /* .blog__posts-container {
     display: flex;
     justify-content: space-around;
@@ -415,13 +424,17 @@
     margin-top: 80px;
 }
 
-.blog-post {
+.blog-margin{
+    margin-top: 50px;
+}
+
+/* .blog-post {
     width: 380px;
     height: 345px;
     background-color: white;
     box-shadow: 0 3px 8px #ddd;
     cursor: pointer;
-}
+} */
 
 .post__creditos {
     font-family: var(--barlow);
@@ -514,7 +527,7 @@
 
 
 
-@media (max-width: 600px){
+@media (max-width: 576px){
     .hidden-mobile{
         display: none;
     }
@@ -558,7 +571,7 @@
         font-size: 15px;
     }
     .post{
-        margin-top: 15px;
+        margin-top: 20px;
     }
     /*empresas*/
     .description{
@@ -571,8 +584,24 @@
         margin: 0px 15px;
     }
 
+    /*pagina blog*/
+    .blog-margin{
+        margin-top: 0px;
+    }
+
+    .post__img {
+        height: 170px;
+    }
+
     /*footer*/
     .footer__copyright{
         font-size: 17px;
     }
+}
+
+@media (max-width: 950px){
+    .hidden-tablet{
+        display: none;
+    }
+
 }

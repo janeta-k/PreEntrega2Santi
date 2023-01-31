@@ -12,7 +12,7 @@
 
 <body>
   <header class="header">
-    <nav class="navbar bg-black navbar-expand-lg" data-bs-theme="dark">
+    <nav class="navbar bg-black navbar-expand-lg navbar-dark" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="../img/log01.svg" alt="Bootstrap" width="200px" height="auto">
@@ -24,13 +24,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto ">
               <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-link" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./productos.html">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./blog.html">Blog</a>
+                <a class="nav-link active" aria-current="page" href="./blog.html">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./nosotros.html">Nosotros</a>
@@ -46,96 +46,206 @@
   </header>
 
   <section class="blog">
-    <div class="blog__title-container">
-      <h2 class="blog__title">BLOG</h2>
-      <p class="blog__subtitle">De cocina y gastronomía que debes leer: Recetas, tips y más!</p>
-    </div>
-
     <div class="container">
-
-      <div class="primera-fila blog__posts-container">
-        <div class="blog-post">
-          <img class="post__img" src="../img/torta-chocolate.PNG" alt="torta-chocolate">
-          <div class="post__description-container">
-            <p class="post__title">TORTA DE CHOCOLATE Y CAFÉ</p>
-            <p class="post__creditos">By <b>Dulce Tentación</b></p>
-          </div>
-  
-        </div>
-        <div class="blog-post">
-          <img class="post__img" src="../img/pie.PNG" alt="pie de limón">
-          <div class="post__description-container">
-            <p class="post__title">PIE DE LIMÓN</p>
-            <p class="post__creditos">By <b>Dulce Tentación</b></p>
-          </div>
-  
-        </div>
-        <div class="blog-post">
-          <img class="post__img" src="../img/cheesecake.PNG" alt="CHEESECAKE">
-          <div class="post__description-container">
-            <p class="post__title">CHEESECAKE</p>
-            <p class="post__creditos">By <b>Dulce Tentación</b></p>
-          </div>
-  
-        </div>
-      </div>
-      
-      <div class="segunda-fila blog__posts-container">
-        <div class="blog-post">
-          <img class="post__img" src="../img/flan.PNG" alt="Flan de caramelo">
-          <div class="post__description-container">
-            <p class="post__title">FLAN DE CARAMELO</p>
-            <p class="post__creditos">By <b>Dulce Tentación</b></p>
-          </div>
-
-        </div>
-        <div class="blog-post">
-          <img class="post__img" src="../img/trufas.PNG" alt="trufas">
-          <div class="post__description-container">
-            <p class="post__title">TRUFAS DE BROWNIE Y MANJAR</p>
-            <p class="post__creditos">By <b>Dulce Tentación</b></p>
-          </div>
-
-        </div>
-        <div class="blog-post">
-          <img class="post__img" src="../img/oreo.PNG" alt="batido de oreo">
-          <div class="post__description-container">
-            <p class="post__title">BATIDO DE OREO</p>
-            <p class="post__creditos">By <b>Dulce Tentación</b></p>
-          </div>
-
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="blog__title">Blog</h2>
+          <p class="blog__subtitle">
+            Te invitamos a ser parte de la experiencia Dulce Tentación
+          </p>
         </div>
       </div>
 
-      <div class="tercera-fila blog__posts-container">
-        <div class="blog-post">
-          <img class="post__img" src="../img/bizcocho.PNG" alt="bizcocho">
-          <div class="post__description-container">
-            <p class="post__title">BIZCOCHO DE YOGUR Y CHOCOLATE</p>
-            <p class="post__creditos">By <b>Dulce Tentación</b></p>
+      <div class="row blog-margin">
+        <div class="col-lg-4 ">
+          <div class="card blog__card-container post">
+            <img class="post__img" src="../img/torta-chocolate.PNG" alt="torta-chocolate">
+            <div class="card-body">
+              <p class="post__title">TORTA DE CHOCOLATE Y CAFÉ</p>
+          <p class="post__creditos">By Dulce Tentación</p>
+            </div>
           </div>
-
         </div>
-        <div class="blog-post">
-          <img class="post__img" src="../img/manzana-bizcocho.PNG" alt="bizcocho-manzana">
-          <div class="post__description-container">
-            <p class="post__title">BIZCOCHO DE MANZANA Y PERA</p>
-            <p class="post__creditos">By <b>Dulce Tentación</b></p>
-          </div>
 
+        <div class="col-lg-4">
+          <div class="card blog__card-container post">
+            <img class="post__img" src="../img/pie.PNG" alt="pie de limón">
+            <div class="card-body">
+              <p class="post__title">PIE DE LIMÓN</p>
+          <p class="post__creditos">By Dulce Tentación</p>
+            </div>
+          </div>
         </div>
-        <div class="blog-post">
-          <img class="post__img" src="../img/volcan.PNG" alt="volcán de chocolate">
-          <div class="post__description-container">
-            <p class="post__title">VOLCÁN DE CHOCOLATE</p>
-            <p class="post__creditos">By <b>Dulce Tentación</b></p>
-          </div>
 
+        <div class="col-lg-4">
+          <div class="card blog__card-container post">
+            <img class="post__img" src="../img/cheesecake.PNG" alt="CHEESECAKE">
+            <div class="card-body">
+              <p class="post__title">CHEESECAKE</p>
+          <p class="post__creditos">By Dulce Tentación</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row blog-margin">
+        <div class="col-lg-4 ">
+          <div class="card blog__card-container post">
+            <img class="post__img " src="../img/flan.PNG" alt="Flan de caramelo">
+            <div class="card-body">
+              <p class="post__title">TORTA DE CHOCOLATE Y CAFÉ</p>
+          <p class="post__creditos">By Dulce Tentación</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card blog__card-container post">
+            <img class="post__img " src="../img/trufas.PNG" alt="trufas">
+            <div class="card-body">
+              <p class="post__title">PIE DE LIMÓN</p>
+          <p class="post__creditos">By Dulce Tentación</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="card blog__card-container post">
+            <img class="post__img " src="../img/oreo.PNG" alt="batido de oreo">
+            <div class="card-body">
+              <p class="post__title">CHEESECAKE</p>
+          <p class="post__creditos">By Dulce Tentación</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row blog-margin">
+        <div class="col-lg-4 ">
+          <div class="card blog__card-container post">
+            <img class="post__img " src="../img/bizcocho.PNG" alt="bizcocho">
+            <div class="card-body">
+              <p class="post__title">TORTA DE CHOCOLATE Y CAFÉ</p>
+          <p class="post__creditos">By Dulce Tentación</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card blog__card-container post">
+            <img class="post__img " src="../img/manzana-bizcocho.PNG" alt="bizcocho-manzana">
+            <div class="card-body">
+              <p class="post__title">PIE DE LIMÓN</p>
+          <p class="post__creditos">By Dulce Tentación</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card blog__card-container post">
+            <img class="post__img " src="../img/volcan.PNG" alt="volcán de chocolate">
+            <div class="card-body">
+              <p class="post__title">CHEESECAKE</p>
+          <p class="post__creditos">By Dulce Tentación</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    
+    
   </section>
 
+
+  <!-- <div class="blog__title-container">
+    <h2 class="blog__title">BLOG</h2>
+    <p class="blog__subtitle">De cocina y gastronomía que debes leer: Recetas, tips y más!</p>
+  </div>
+
+  <div class="container">
+
+    <div class="primera-fila blog__posts-container">
+      <div class="blog-post">
+        <img class="post__img" src="../img/torta-chocolate.PNG" alt="torta-chocolate">
+        <div class="post__description-container">
+          <p class="post__title">TORTA DE CHOCOLATE Y CAFÉ</p>
+          <p class="post__creditos">By <b>Dulce Tentación</b></p>
+        </div>
+
+      </div>
+      <div class="blog-post">
+        <img class="post__img" src="../img/pie.PNG" alt="pie de limón">
+        <div class="post__description-container">
+          <p class="post__title">PIE DE LIMÓN</p>
+          <p class="post__creditos">By <b>Dulce Tentación</b></p>
+        </div>
+
+      </div>
+      <div class="blog-post">
+        <img class="post__img" src="../img/cheesecake.PNG" alt="CHEESECAKE">
+        <div class="post__description-container">
+          <p class="post__title">CHEESECAKE</p>
+          <p class="post__creditos">By <b>Dulce Tentación</b></p>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="segunda-fila blog__posts-container">
+      <div class="blog-post">
+        <img class="post__img" src="../img/flan.PNG" alt="Flan de caramelo">
+        <div class="post__description-container">
+          <p class="post__title">FLAN DE CARAMELO</p>
+          <p class="post__creditos">By <b>Dulce Tentación</b></p>
+        </div>
+
+      </div>
+      <div class="blog-post">
+        <img class="post__img" src="../img/trufas.PNG" alt="trufas">
+        <div class="post__description-container">
+          <p class="post__title">TRUFAS DE BROWNIE Y MANJAR</p>
+          <p class="post__creditos">By <b>Dulce Tentación</b></p>
+        </div>
+
+      </div>
+      <div class="blog-post">
+        <img class="post__img" src="../img/oreo.PNG" alt="batido de oreo">
+        <div class="post__description-container">
+          <p class="post__title">BATIDO DE OREO</p>
+          <p class="post__creditos">By <b>Dulce Tentación</b></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tercera-fila blog__posts-container">
+      <div class="blog-post">
+        <img class="post__img" src="../img/bizcocho.PNG" alt="bizcocho">
+        <div class="post__description-container">
+          <p class="post__title">BIZCOCHO DE YOGUR Y CHOCOLATE</p>
+          <p class="post__creditos">By <b>Dulce Tentación</b></p>
+        </div>
+
+      </div>
+      <div class="blog-post">
+        <img class="post__img" src="../img/manzana-bizcocho.PNG" alt="bizcocho-manzana">
+        <div class="post__description-container">
+          <p class="post__title">BIZCOCHO DE MANZANA Y PERA</p>
+          <p class="post__creditos">By <b>Dulce Tentación</b></p>
+        </div>
+
+      </div>
+      <div class="blog-post">
+        <img class="post__img" src="../img/volcan.PNG" alt="volcán de chocolate">
+        <div class="post__description-container">
+          <p class="post__title">VOLCÁN DE CHOCOLATE</p>
+          <p class="post__creditos">By <b>Dulce Tentación</b></p>
+        </div>
+
+      </div>
+    </div>
+  </div> -->
 
 
   <footer class="footer">
