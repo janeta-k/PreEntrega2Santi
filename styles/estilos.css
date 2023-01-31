@@ -399,15 +399,14 @@
 }
 
 .producto__img {
-    width: 213px;
-    height: auto;
-    margin: 20px 0px;
+    height: 304.4px;
+    padding: 16px 16px 0px;
 }
 
-.tabletas,
+/* .tabletas,
 .sinAzucar {
     margin-top: 90px;
-}
+} */
 
 /******Blog******/
 
