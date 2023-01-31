@@ -40,35 +40,6 @@ p{
     flex-grow: 0;
 }
 
-/* .header {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    padding: 15px;
-}
-
-.header__img {
-    width: 200px;
-    height: auto;
-}
-
-.nav__ul {
-    width: 325px;
-    height: 65px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.nav__li {
-    list-style: none;
-}
-
-.link {
-    color: white;
-    font-family: sans-serif;
-} */
-
 /******Inicio******/
 /*BANNER*/
 
@@ -79,18 +50,6 @@ p{
 .banner__padding{
     padding: 3rem;
 }
-/* .banner__img {
-    width: 100%;
-    height: auto;
-    position: relative;
-} */
-
-/* .banner__text-container {
-    position: absolute;
-    top: 225px;
-    right: 800px;
-    width: 500px;
-} */
 
 .banner__title {
     font-size: 4rem;
@@ -110,12 +69,14 @@ p{
     color: white;
 }
 
+.banner__button:hover{
+    background-color: #ff5d2a;
+    border: solid 1px #ff5d2a;
+    color: white;
+}
+
+
 /*SECCIÓN PRODUCTOS DESTACADOS*/
-
-/* .destacados {
-    padding: 60px 40px;
-} */
-
 .destacados__title {
     color: #503629;
     font-family: sans-serif;
@@ -123,59 +84,6 @@ p{
     font-size: 2.2rem;
     font-weight: 600;
 }
-
-/* .destacados__productos-container {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 30px;
-}
-
-.product {
-    width: 300px;
-    height: auto;
-    padding: 15px;
-    background-color: white;
-    text-align: center;
-    box-shadow: 0 3px 8px #ddd;
-    border: 1px solid #eee;
-}
-
-.product__img {
-    width: 240px;
-    height: 240px;
-    margin: 20px 0px;
-}
-
-.product__description {
-    color: #503629;
-    font-family: sans-serif;
-    font-size: 15.4px;
-    font-weight: 100;
-    margin-bottom: 10px;
-}
-
-.product__price {
-    font-size: 1.0em;
-    font-weight: 600;
-    color: #807451;
-}
-
-
-
-.destacados__button-container {
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 20px;
-}
-
-
-.link-black {
-    color: black;
-}
-
-.link-black:hover {
-    color: white;
-} */
 
 .product__button {
     font-weight: 600;
@@ -255,24 +163,6 @@ p{
     height: 255px;
     object-fit: cover;
 }
-
-/* .blog__posts-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
-.post__img {
-    width: 100%;
-    height: 76%;
-    object-fit: cover;
-}
-
-.post__description-container {
-    height: 50px;
-    padding: 1.25rem;
-} */
 
 .post__category {
     font-family: var(--barlow);
@@ -373,10 +263,6 @@ p{
 
 
 /******Productos******/
-/* .container {
-    margin: 5% 7%;
-} */
-
 .page__title {
     font-family: var(--courgette);
     font-size: 65px;
@@ -412,26 +298,12 @@ p{
     padding: 16px 16px 0px;
 }
 
-/* .tabletas,
-.sinAzucar {
-    margin-top: 90px;
-} */
-
 /******Blog******/
 
 .segunda-fila,
 .tercera-fila {
     margin-top: 80px;
 }
-
-
-/* .blog-post {
-    width: 380px;
-    height: 345px;
-    background-color: white;
-    box-shadow: 0 3px 8px #ddd;
-    cursor: pointer;
-} */
 
 .post__creditos {
     font-family: var(--barlow);
@@ -550,11 +422,6 @@ p{
         font-size: 20px;
         margin-bottom: 1rem;
     }
-    .banner__button {
-    background-color: #d9ae5c;
-    border: solid 1px #d9ae5c;
-    color: white;
-    }
     .banner__img{
         width: 100%;
         height: auto;
@@ -579,6 +446,11 @@ p{
     }
     .empresas__description-container {
         margin: 0px 15px;
+    }
+
+    /*pagina productos*/
+    .page__title{
+        font-size: 45px
     }
 
     /*pagina blog*/
@@ -619,6 +491,4 @@ p{
     .empresas__description-p{
         text-align: justify;
     }
-
-
 }
