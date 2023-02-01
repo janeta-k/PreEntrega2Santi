@@ -53,7 +53,6 @@ p{
 
 .banner__title {
     font-size: 4rem;
-    
 }
 
 .banner__subtitle {
@@ -182,10 +181,6 @@ p{
     margin: 0%;
 }
 
-.blog__button-container {
-    text-align: center;
-}
-
 .button__ver-blog {
     cursor: pointer;
     letter-spacing: 3px;
@@ -204,10 +199,6 @@ p{
 }
 
 /*SECCIÓN DE EMPRESAS*/
-.empresas__title-container {
-    padding: 30px;
-}
-
 .empresas__title {
     color: #503629;
     font-family: sans-serif;
@@ -216,12 +207,7 @@ p{
     font-weight: 600;
 }
 
-.empresas__info-flex {
-    display: flex;
-}
-
 .empresas__description-container {
-   
     font-family: sans-serif;
 }
 
@@ -284,33 +270,12 @@ p{
     border-bottom: 5px solid #000;
 }
 
-.productos__container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.producto {
-    width: 300px;
-    height: auto;
-    padding: 15px;
-    background-color: white;
-    text-align: center;
-    box-shadow: 0 3px 8px #ddd;
-    border: 1px solid #eee;
-}
-
 .producto__img {
     height: 304.4px;
     padding: 16px 16px 0px;
 }
 
 /******Blog******/
-
-.segunda-fila,
-.tercera-fila {
-    margin-top: 80px;
-}
-
 .post__creditos {
     font-family: var(--barlow);
 }
@@ -401,7 +366,7 @@ p{
 }
 
 
-
+/*Mobile*/
 @media (max-width: 576px){
     .hidden-tablet-mobile{
         display: none;
@@ -412,6 +377,7 @@ p{
     .show-tablet-mobile{
         display: block;
     }
+/******INICIO******/
     /*Banner*/
     .banner__padding{
         padding: 1rem;
@@ -433,12 +399,10 @@ p{
         height: auto;
        padding: 75px 50px 50px;
     }
-
     /*destacados del mes*/
     .product__card-margin{
         margin: 20px 30px;
     }
-
     /*blog*/
     .blog__subtitle {
         font-size: 15px;
@@ -454,12 +418,12 @@ p{
         margin: 0px 15px;
     }
 
-    /*pagina productos*/
+    /******PRODUCTOS******/
     .page__title{
         font-size: 45px
     }
 
-    /*pagina blog*/
+    /******BLOG******/
     .blog-margin{
         margin-top: 0px;
     }
@@ -474,6 +438,7 @@ p{
     }
 }
 
+/*Tablet*/
 @media (max-width: 950px){
     .hidden-tablet-mobile{
         display: none;
