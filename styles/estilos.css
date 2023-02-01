@@ -366,7 +366,7 @@ p{
 }
 
 
-
+/*Mobile*/
 @media (max-width: 576px){
     .hidden-tablet-mobile{
         display: none;
@@ -438,6 +438,7 @@ p{
     }
 }
 
+/*Tablet*/
 @media (max-width: 950px){
     .hidden-tablet-mobile{
         display: none;
