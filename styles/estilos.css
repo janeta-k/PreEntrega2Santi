@@ -291,7 +291,7 @@ p{
 }
 
 .nosotros__img {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -377,6 +377,7 @@ p{
     .show-tablet-mobile{
         display: block;
     }
+
 /******INICIO******/
     /*Banner*/
     .banner__padding{
@@ -417,26 +418,44 @@ p{
     .empresas__description-container {
         margin: 0px 15px;
     }
-
-    /******PRODUCTOS******/
-    .page__title{
-        font-size: 45px
-    }
-
-    /******BLOG******/
-    .blog-margin{
-        margin-top: 0px;
-    }
-
-    .post__img {
-        height: 170px;
-    }
-
     /*footer*/
     .footer__copyright{
         font-size: 17px;
     }
+
+/******PRODUCTOS******/
+    .page__title{
+        font-size: 45px
+    }
+
+/******BLOG******/
+    .blog-margin{
+        margin-top: 0px;
+    }
+    .post__img {
+        height: 170px;
+    }
+
+/******NOSOTROS******/
+    .nosotros__title {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nosotros__text {
+        letter-spacing: 0.5px;
+    }
+
+    .nosotros__img {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
 }
+
 
 /*Tablet*/
 @media (max-width: 950px){
