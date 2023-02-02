@@ -26,6 +26,10 @@ p{
     margin-bottom: 0;
 }
 
+.btn:hover {
+    border-color: black;
+}
+
 :root {
     --montserrat: 'Montserrat', sans-serif;
     --open-sans: 'Open Sans', sans-serif;
@@ -320,12 +324,6 @@ p{
     margin: 70px 0px 20px 0px;
 }
 
-.contacto__info-container {
-    width: 60%;
-    padding: 0px 0px 0px 100px;
-    font-family: var(--montserrat);
-}
-
 .contacto__title {
     color: #503629;
     font-family: sans-serif;
@@ -336,11 +334,6 @@ p{
 .contacto__name,
 .contacto__tel {
     margin-top: 20px;
-}
-
-.contacto__form {
-    display: flex;
-    flex-direction: column;
 }
 
 .contacto__label {
@@ -354,14 +347,11 @@ p{
 }
 
 .contacto__button {
-    align-self: flex-start;
-    margin-top: 20px;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 7px 20px;
     letter-spacing: 1px;
     background-color: #ff5d2a;
     border: solid 1px #ff5d2a;
-    cursor: pointer;
     color: white;
 }
 
@@ -443,15 +433,30 @@ p{
         text-align: center;
         margin: 0;
     }
-
     .nosotros__text {
         letter-spacing: 0.5px;
     }
-
     .nosotros__img {
         width: 100%;
         height: auto;
         margin-top: 30px;
+    }
+
+/******CONTACTO******/
+    .contacto__info-container{
+        text-align: center;
+    }
+    .contacto__title{
+        font-size: 1.5rem;
+    }
+    .contacto__form-container{
+        margin-top: 20px;
+    }
+    form{
+        padding: 30px;
+    }
+    .contacto__button{
+        width: 100%;
     }
 
 }
